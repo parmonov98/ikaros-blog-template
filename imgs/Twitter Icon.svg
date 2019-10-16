@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 12" width="16" height="12">
+	<defs>
+		<image width="16" height="12" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAMAAABcOc2zAAAAAXNSR0IB2cksfwAAADNQTFRF////////////////////////////////////////////////////////////////////5RDoRwAAABF0Uk5TAAlGLCN6jIMSYFcaT2k9cjVMkDyzAAAAW0lEQVR4nEWOQQKAIAgEFRVMxPr/axOE2tPOHBZSimQo3mo2bkj9iAvHbgMRiU30XQejppmwTiZwgpqJf0RFaR/Ps1KDdWPpydtF1ckm4kjPORIsHE/zAoHlb74vTQNeymWVdQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Footer">
+		<g id="Twitter">
+			<use id="Twitter Icon" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>
