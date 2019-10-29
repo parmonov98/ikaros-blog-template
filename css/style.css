@@ -61,7 +61,7 @@ body{
 
 /* container > post_items*/
 .container{
-    margin-top: 120px;
+    margin-top: 100px;
 }
 
 
@@ -102,7 +102,6 @@ body{
 
 
 .post_items{
-    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -115,6 +114,12 @@ body{
 }
 .post_item > img{
     width: 100%;
+}
+.post_item > .post_title > a{
+    color: #484848;
+}
+.post_item > .post_title > a:hover{
+    color: #6b99b6;
 }
 .post_item > .post_title{
     font-size: 15px;
@@ -266,7 +271,7 @@ body{
 .footer_form input, .footer_form textarea {
     background-color: #000000;
     width: 100%;
-    border: 0;
+    border: 1px #36393b solid;
     outline: 0;
     padding: 8px 5px;
     color: #fff;
