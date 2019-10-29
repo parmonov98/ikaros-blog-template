@@ -27,7 +27,18 @@
         </div>
     </header>
     <div class="container">
+    <div class="sitemap wrapper">
+        <ul class="path">
+            <li><a href="#">Home1</a></li>
+            <li><a href="#">Home2</a></li>
+            <li><a href="#">Home3</a></li>
+        </ul>
+        <div class="map_line"></div>
+    </div>
+    
 <div class="wrapper">
+        
+
         <div class="post">
             <div class="title-block">
                 <div class="date">
@@ -135,9 +146,6 @@ Testing related post title
                 </div>
                 <hr class="doubled_line">
                 <h2 class="submit-comment-title">Submit a Comment</h2>
-                <form action="#" class="comment-form">
-                   
-                </form>
                 <form action="/" class="comment-form">
                     <label class="note">Your email address will not be published. Required fields are marked *</label>
                     <div class="input_block">
@@ -153,7 +161,8 @@ Testing related post title
                         <textarea class="comment_message" placeholder="Enter your message"></textarea>
                     </div>
                     <div class="input_block">
-                        <input type="submit" value="Submit" class="comment_button">
+                        <input type="submit" value="Submit" hidden>
+                        <button class="comment_button"><span class="tr-btn"></span> Add Comment</button>
                     </div>
                 </form>
             </div>
